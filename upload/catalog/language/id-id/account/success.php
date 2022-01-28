@@ -1,0 +1,8 @@
+<?php
+// Heading
+$_['heading_title'] = 'Akun Anda Telah Dibuat!';    // Original :  'Your Account Has Been Created!';
+
+// Text
+$_['text_success']  = "<p>Selamat! Akun baru Anda telah berhasil dibuat! </p> <p>Anda sekarang dapat memanfaatkan hak istimewa anggota untuk meningkatkan pengalaman belanja online Anda bersama kami. </p> <p>Jika Anda memiliki pertanyaan tentang pengoperasian toko online ini, silakan kirim email kepada pemilik toko. </p> <p>Konfirmasi telah dikirim ke alamat email yang disediakan. Jika Anda belum menerimanya dalam waktu satu jam, silakan <a href = \"%s\" >contact kami</a>.</p>'";    // Original :  '<p>Congratulations! Your new account has been successfully created!</p> <p>You can now take advantage of member privileges to enhance your online shopping experience with us.</p> <p>If you have ANY questions about the operation of this online shop, please e-mail the store owner.</p> <p>A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please <a href="%s">contact us</a>.</p>';
+$_['text_approval'] = '<p>Terima kasih untuk mendaftar dengan %s!</p> <p>Anda akan diberitahu melalui e-mail setelah akun Anda diaktifkan oleh pemilik toko. </p> <p>Jika Anda memiliki pertanyaan tentang pengoperasian toko online ini, silakan <a href = "%s" >memberitahukan pemilik toko</a>.</p>';    // Original :  '<p>Thank you for registering with %s!</p><p>You will be notified by e-mail once your account has been activated by the store owner.</p><p>If you have ANY questions about the operation of this online shop, please <a href="%s">contact the store owner</a>.</p>';
+$_['text_account']  = 'Akun';    // Original :  'Account';

@@ -1,0 +1,133 @@
+<?php
+// Heading
+$_['heading_title']          = 'Produk';    // Original :  'Products';
+
+// Text
+$_['text_success']           = 'Sukses: Anda telah memodifikasi produk!';    // Original :  'Success: You have modified products!';
+$_['text_variant']           = 'Harap dicatat karena ini adalah produk varian, Anda harus mengganti <a href = "%s" target = "_blank" class = "alert-link" >master product</a> data. Jika tidak, data akan diganti dengan <a href = "%s" target = "_blank" class = "alert-link" >master product</a> data saat disimpan.';    // Original :  'Please note because this is a variant product you must override the <a href="%s" target="_blank" class="alert-link">master product</a> data. Otherwise the data will get replaced with the <a href="%s" target="_blank" class="alert-link">master product</a> data when saved.';
+$_['text_list']              = 'Daftar Produk';    // Original :  'Product List';
+$_['text_add']               = 'Tambahkan Produk';    // Original :  'Add Product';
+$_['text_edit']              = 'Edit Produk';    // Original :  'Edit Product';
+$_['text_variant_add']       = 'Tambahkan Varian';    // Original :  'Add Variant';
+$_['text_model']             = 'Model';    // Original :  'Model';
+$_['text_price']             = 'Harga';    // Original :  'Price';
+$_['text_stock']             = 'Saham';    // Original :  'Stock';
+$_['text_specification']     = 'Spesifikasi';    // Original :  'Specification';
+$_['text_filter']            = 'Filter';    // Original :  'Filter';
+$_['text_default']           = 'Default';    // Original :  'Default';
+$_['text_keyword']           = 'Jangan gunakan spasi, ganti spasi dengan - dan pastikan URL SEO unik secara global.';    // Original :  'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['text_option_add']        = 'Tambah Opsi';    // Original :  'Add Option';
+$_['text_option_value']      = 'Nilai Opsi';    // Original :  'Option Value';
+$_['text_select']            = 'Pilih';    // Original :  'Select';
+$_['text_radio']             = 'Radio';    // Original :  'Radio';
+$_['text_checkbox']          = 'Kotak Centang';    // Original :  'Checkbox';
+$_['text_input']             = 'Input';    // Original :  'Input';
+$_['text_text']              = 'Teks';    // Original :  'Text';
+$_['text_textarea']          = 'Textarea';    // Original :  'Textarea';
+$_['text_file']              = 'Berkas';    // Original :  'File';
+$_['text_date']              = 'Tanggal';    // Original :  'Date';
+$_['text_datetime']          = 'Tanggal &amp;Waktu';    // Original :  'Date &amp; Time';
+$_['text_time']              = 'Waktu';    // Original :  'Time';
+$_['text_image']             = 'Gambar';    // Original :  'Image';
+$_['text_image_additional']  = 'Gambar Tambahan';    // Original :  'Additional Images';
+$_['text_reward']            = 'Beli Poin';    // Original :  'Buy Points';
+$_['text_points']            = 'Poin Reward';    // Original :  'Reward Points';
+$_['text_subscription_trial']    = '%s setiap %d %s untuk %d pembayaran(s) lalu';    // Original :  '%s every %d %s(s) for %d payment(s) then';
+$_['text_subscription_description'] = '%s setiap %d %s untuk pembayaran %d)';    // Original :  '%s every %d %s(s) for %d payment(s)';
+$_['text_subscription_cancel']      = '%s setiap %d %s(s) sampai dibatalkan';    // Original :  '%s every %d %s(s) until canceled';
+
+// Column
+$_['column_name']            = 'Nama Produk';    // Original :  'Product Name';
+$_['column_model']           = 'Model';    // Original :  'Model';
+$_['column_image']           = 'Gambar';    // Original :  'Image';
+$_['column_price']           = 'Harga';    // Original :  'Price';
+$_['column_quantity']        = 'Kuantitas';    // Original :  'Quantity';
+$_['column_status']          = 'Status';    // Original :  'Status';
+$_['column_ip']              = 'IP';    // Original :  'IP';
+$_['column_store']           = 'Toko';    // Original :  'Store';
+$_['column_country']         = 'Negara';    // Original :  'Country';
+$_['column_date_added']      = 'Tanggal Ditambahkan';    // Original :  'Date Added';
+$_['column_action']          = 'Tindakan';    // Original :  'Action';
+
+// Entry
+$_['entry_name']             = 'Nama Produk';    // Original :  'Product Name';
+$_['entry_description']      = 'Deskripsi';    // Original :  'Description';
+$_['entry_meta_title']       = 'Judul Meta Tag';    // Original :  'Meta Tag Title';
+$_['entry_meta_keyword']     = 'Kata Kunci Meta Tag';    // Original :  'Meta Tag Keywords';
+$_['entry_meta_description'] = 'Deskripsi Meta Tag';    // Original :  'Meta Tag Description';
+$_['entry_store']            = 'Toko';    // Original :  'Stores';
+$_['entry_keyword']          = 'Kata kunci';    // Original :  'Keyword';
+$_['entry_model']            = 'Model';    // Original :  'Model';
+$_['entry_sku']              = 'SKU';    // Original :  'SKU';
+$_['entry_upc']              = 'UPC';    // Original :  'UPC';
+$_['entry_ean']              = 'EAN';    // Original :  'EAN';
+$_['entry_jan']              = 'JAN';    // Original :  'JAN';
+$_['entry_isbn']             = 'ISBN';    // Original :  'ISBN';
+$_['entry_mpn']              = 'MPN';    // Original :  'MPN';
+$_['entry_location']         = 'Lokasi';    // Original :  'Location';
+$_['entry_shipping']         = 'Membutuhkan Pengiriman';    // Original :  'Requires Shipping';
+$_['entry_manufacturer']     = 'Produsen';    // Original :  'Manufacturer';
+$_['entry_date_available']   = 'Tanggal Tersedia';    // Original :  'Date Available';
+$_['entry_quantity']         = 'Kuantitas';    // Original :  'Quantity';
+$_['entry_minimum']          = 'Kuantitas Minimum';    // Original :  'Minimum Quantity';
+$_['entry_stock_status']     = 'Keluar dari Status Saham';    // Original :  'Out Of Stock Status';
+$_['entry_price']            = 'Harga';    // Original :  'Price';
+$_['entry_tax_class']        = 'Kelas Pajak';    // Original :  'Tax Class';
+$_['entry_points']           = 'Poin';    // Original :  'Points';
+$_['entry_subtract']         = 'Kurangi Stok';    // Original :  'Subtract Stock';
+$_['entry_weight_class']     = 'Kelas Berat';    // Original :  'Weight Class';
+$_['entry_weight']           = 'Berat';    // Original :  'Weight';
+$_['entry_dimension']        = 'Dimensi (L x W x H)';    // Original :  'Dimensions (L x W x H)';
+$_['entry_length_class']     = 'Kelas Panjang';    // Original :  'Length Class';
+$_['entry_length']           = 'Panjang';    // Original :  'Length';
+$_['entry_width']            = 'Lebar';    // Original :  'Width';
+$_['entry_height']           = 'Tinggi';    // Original :  'Height';
+$_['entry_option']           = 'Pilihan';    // Original :  'Option';
+$_['entry_option_value']     = 'Nilai Opsi';    // Original :  'Option Value';
+$_['entry_customer_group']   = 'Grup Pelanggan';    // Original :  'Customer Group';
+$_['entry_date_start']       = 'Tanggal Mulai';    // Original :  'Date Start';
+$_['entry_date_end']         = 'Tanggal Akhir';    // Original :  'Date End';
+$_['entry_priority']         = 'Prioritas';    // Original :  'Priority';
+$_['entry_attribute']        = 'Atribut';    // Original :  'Attribute';
+$_['entry_attribute_group']  = 'Grup Atribut';    // Original :  'Attribute Group';
+$_['entry_image']            = 'Gambar';    // Original :  'Image';
+$_['entry_text']             = 'Teks';    // Original :  'Text';
+$_['entry_required']         = 'Diperlukan';    // Original :  'Required';
+$_['entry_status']           = 'Status';    // Original :  'Status';
+$_['entry_sort_order']       = 'Urutkan Pesanan';    // Original :  'Sort Order';
+$_['entry_category']         = 'Kategori';    // Original :  'Categories';
+$_['entry_filter']           = 'Filter';    // Original :  'Filters';
+$_['entry_download']         = 'Downloads';    // Original :  'Downloads';
+$_['entry_related']          = 'Produk Terkait';    // Original :  'Related Products';
+$_['entry_tag']              = 'Tag Produk';    // Original :  'Product Tags';
+$_['entry_reward']           = 'Poin Reward';    // Original :  'Reward Points';
+$_['entry_layout']           = 'Layout Override';    // Original :  'Layout Override';
+$_['entry_subscription']     = 'Paket Langganan';    // Original :  'Subscription Plans';
+
+// Help
+$_['help_tag']               = 'Koma terpisah';    // Original :  'Comma separated';
+$_['help_sku']               = 'Stock Keeping Unit';    // Original :  'Stock Keeping Unit';
+$_['help_upc']               = 'Kode Produk Universal';    // Original :  'Universal Product Code';
+$_['help_ean']               = 'Nomor Artikel Eropa';    // Original :  'European Article Number';
+$_['help_jan']               = 'Nomor Artikel Jepang';    // Original :  'Japanese Article Number';
+$_['help_isbn']              = 'Nomor Buku Standar Internasional';    // Original :  'International Standard Book Number';
+$_['help_mpn']               = 'Nomor Bagian Produsen';    // Original :  'Manufacturer Part Number';
+$_['help_minimum']           = 'Paksa jumlah minimum yang dipesan';    // Original :  'Force a minimum ordered amount';
+$_['help_stock_status']      = 'Status yang ditunjukkan ketika suatu produk kehabisan stok';    // Original :  'Status shown when a product is out of stock';
+$_['help_manufacturer']      = '(Autocomplete)';    // Original :  '(Autocomplete)';
+$_['help_category']          = '(Autocomplete)';    // Original :  '(Autocomplete)';
+$_['help_filter']            = '(Autocomplete)';    // Original :  '(Autocomplete)';
+$_['help_download']          = '(Autocomplete)';    // Original :  '(Autocomplete)';
+$_['help_related']           = '(Autocomplete)';    // Original :  '(Autocomplete)';
+$_['help_option']            = '(Autocomplete)';    // Original :  '(Autocomplete)';
+$_['help_points']            = "Jumlah poin yang diperlukan untuk membeli barang ini. Jika Anda tidak ingin produk ini dibeli dengan poin tinggalkan sebagai 0.";    // Original :  'Number of points needed to buy this item. If you don\'t want this product to be purchased with points leave as 0.';
+
+// Error
+$_['error_warning']          = 'Peringatan: Silakan periksa formulir dengan hati-hati untuk kesalahan!';    // Original :  'Warning: Please check the form carefully for errors!';
+$_['error_permission']       = 'Peringatan: Anda tidak memiliki izin untuk memodifikasi produk!';    // Original :  'Warning: You do not have permission to modify products!';
+$_['error_name']             = 'Nama Produk harus lebih besar dari 1 dan kurang dari 255 karakter!';    // Original :  'Product Name must be greater than 1 and less than 255 characters!';
+$_['error_meta_title']       = 'Judul Meta harus lebih besar dari 1 dan kurang dari 255 karakter!';    // Original :  'Meta Title must be greater than 1 and less than 255 characters!';
+$_['error_model']            = 'Model Produk harus lebih besar dari 1 dan kurang dari 64 karakter!';    // Original :  'Product Model must be greater than 1 and less than 64 characters!';
+$_['error_seo']              = 'Kata kunci URL SEO diperlukan!';    // Original :  'SEO URL keyword required!';
+$_['error_keyword']          = 'URL SEO harus unik!';    // Original :  'SEO URL must be unique!';
+$_['error_required']         = '%-%diperlukan!';    // Original :  '%s required!';
